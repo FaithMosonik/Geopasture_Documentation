@@ -1,71 +1,57 @@
+# GeoPasture
 
-# 🌱 GeoPasture Mobile 🌦️
+## Maamuzi Sahihi, Ushirikiano wa Kudumu (Right Decisions, Lasting Collaboration)
 
-Welcome to **GeoPasture Mobile**, your ultimate companion for managing pastures and livestock with ease! Built with Flutter, this app brings you real-time updates, weather forecasts, animal tracking, and geofencing—all in one place. Whether you're a farmer, rancher, or livestock manager, GeoPasture Mobile is here to make your life simpler and more efficient.
+GeoPasture is a mobile application designed to foster peaceful coexistence and sustainable resource management between Kenyan pastoralists and agriculturalists through technology-enabled collaboration.
 
----
+## Problem Statement
 
-## 🚀 Features
+Pastoralists and agriculturalists in Kenya face persistent conflicts over shared resources, particularly grazing land. These conflicts arise due to:
 
-✨ **Real-Time Pasture Updates**: Stay informed about the condition of your pastures with live updates.  
-🌤️ **Weather Forecasts**: Plan ahead with accurate and localized weather predictions.  
-🐄 **Animal Location Tracking**: Keep tabs on your livestock with real-time GPS tracking.  
-📍 **Geofencing**: Set virtual boundaries and receive alerts when animals move beyond designated areas.  
+- **Competition for Scarce Resources**: Population growth and unpredictable weather patterns increase pressure on limited grazing land and water sources
+- **Lack of Communication**: Limited channels between communities lead to misunderstandings and mistrust
+- **Traditional Practices**: Long-standing grazing methods may not be sustainable under changing environmental conditions
 
----
+Recent conflicts in Baringo (2021) and Laikipia (2021) counties have resulted in loss of life, displacement of families, and significant economic hardship, highlighting the urgent need for innovative solutions.
 
-## 🛠️ Getting Started
+## Solution Overview
 
-To get started with GeoPasture Mobile, follow these simple steps:
+GeoPasture leverages mobile technology to address these challenges through:
 
-1. **Clone the Repository**  
-   First, clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/kinotijoan/geopasture_mobile.git
-   ```
+### Real-time Information Sharing
+- Up-to-date data on pasture availability
+- Localized weather forecasts 
+- GPS-based livestock tracking
 
-2. **Install Dependencies**  
-   Navigate to the project directory and install the required dependencies:
-   ```bash
-   cd geopasture_mobile
-   flutter pub get
-   ```
+### Collaborative Decision-Making Tools
+- Direct messaging between users
+- Community forums for discussion and knowledge sharing
+- Marketplace for trading agricultural products and livestock
 
-3. **Run the App**  
-   Once the dependencies are installed, run the app on your preferred device or emulator:
-   ```bash
-   flutter run
-   ```
+### Geofencing for Resource Management
+- Virtual boundaries around designated grazing areas
+- Automated alerts when livestock approach boundaries
+- Dynamic boundary management based on community agreements
 
----
-## � Prerequisites
+## Technical Implementation
 
-Before running the app, ensure you have the following installed:
-- **Flutter SDK** (version 3.0 or higher)  
-- **Dart SDK** (version 2.18 or higher)  
-- An IDE like **Android Studio** or **VS Code** with the Flutter plugin installed.  
+GeoPasture integrates several technologies:
 
----
+- **Data Acquisition**: Satellite imagery, ground sensors, weather APIs, GPS tracking, and user reports
+- **Processing**: Algorithms for pasture quality assessment, weather forecasting, and movement pattern analysis
+- **Mobile Platform**: React Native application optimized for low-bandwidth environments with offline functionality
+- **Geofencing**: Polygon-based boundary definition with configurable alerts and time-based access rules
+- **Communication**: Secure messaging, forums, and marketplace features
 
-## 🧑‍💻 Contributing
+## Current Status
 
-We welcome contributions to make GeoPasture Mobile even better! If you'd like to contribute, please follow these steps:
-1. Fork the repository.  
-2. Create a new branch for your feature or bugfix.  
-3. Submit a pull request with a detailed description of your changes.  
+This repository contains the development version of GeoPasture. The project is currently in the development phase, with plans to conduct pilot programs in selected regions of Kenya.
 
----
+## Impact & Vision
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## ❓ Need Help?
-
-If you have any questions or run into issues, feel free to open an issue on GitHub or reach out to us at **support.geopasture@yopmail.com**. We're here to help!  
-
----
-
-Happy coding! 🌾🐑
+GeoPasture aims to transform resource management practices by:
+- Reducing violent conflicts between communities
+- Promoting sustainable utilization of limited resources
+- Creating economic opportunities through enhanced communication
+- Building resilience against climate variability
+- Preserving traditional livelihoods while embracing technological innovation
